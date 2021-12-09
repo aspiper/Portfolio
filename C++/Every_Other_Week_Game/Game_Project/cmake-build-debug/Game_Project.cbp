@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Game_Project"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\fonts\;CMake Files\images\;CMake Files\images\misc\;CMake Files\images\Backgrounds\;CMake Files\images\lasers\;CMake Files\images\player1\;CMake Files\images\player2\;CMake Files\images\Obstacles\;CMake Files\images\controls_screen\;CMake Files\Audio\;CMake Files\Audio\Music\;CMake Files\Audio\voiceover\;CMake Files\Audio\misc\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\Program Files\;CMake Files\..\..\..\..\Program Files\SFML-2.5.1\;CMake Files\..\..\..\..\Program Files\SFML-2.5.1\lib\;CMake Files\..\..\..\..\Program Files\SFML-2.5.1\lib\cmake\;CMake Files\..\..\..\..\Program Files\SFML-2.5.1\lib\cmake\SFML\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/austi_000/Desktop/Game_Project_REALLYDONE/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/austi_000/Desktop/Game_Project_REALLYDONE/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/austi_000/Desktop/Game_Project_REALLYDONE/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/austi_000/Desktop/Game_Project_REALLYDONE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/austi_000/Desktop/Game_Project_REALLYDONE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Game">
+				<Option output="C:/Users/austi_000/Desktop/Game_Project_REALLYDONE/cmake-build-debug/Game.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/austi_000/Desktop/Game_Project_REALLYDONE/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSFML_STATIC"/>
+					<Add directory="C:/Program Files/SFML-2.5.1/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/austi_000/Desktop/Game_Project_REALLYDONE/cmake-build-debug/Makefile&quot;  VERBOSE=1 Game"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/austi_000/Desktop/Game_Project_REALLYDONE/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/austi_000/Desktop/Game_Project_REALLYDONE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/austi_000/Desktop/Game_Project_REALLYDONE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Game/fast">
+				<Option output="C:/Users/austi_000/Desktop/Game_Project_REALLYDONE/cmake-build-debug/Game.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/austi_000/Desktop/Game_Project_REALLYDONE/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSFML_STATIC"/>
+					<Add directory="C:/Program Files/SFML-2.5.1/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/austi_000/Desktop/Game_Project_REALLYDONE/cmake-build-debug/Makefile&quot;  VERBOSE=1 Game/fast"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/austi_000/Desktop/Game_Project_REALLYDONE/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/austi_000/Desktop/Game_Project_REALLYDONE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/austi_000/Desktop/Game_Project_REALLYDONE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/austi_000/Desktop/Game_Project_REALLYDONE/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/austi_000/Desktop/Game_Project_REALLYDONE/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/austi_000/Desktop/Game_Project_REALLYDONE/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/austi_000/Desktop/Game_Project_REALLYDONE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/austi_000/Desktop/Game_Project_REALLYDONE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/austi_000/Desktop/Game_Project_REALLYDONE/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/austi_000/Desktop/Game_Project_REALLYDONE/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/austi_000/Desktop/Game_Project_REALLYDONE/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/austi_000/Desktop/Game_Project_REALLYDONE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/austi_000/Desktop/Game_Project_REALLYDONE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/austi_000/Desktop/Game_Project_REALLYDONE/animation.cpp">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="C:/Users/austi_000/Desktop/Game_Project_REALLYDONE/animation.h">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="C:/Users/austi_000/Desktop/Game_Project_REALLYDONE/entity.cpp">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="C:/Users/austi_000/Desktop/Game_Project_REALLYDONE/entity.h">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="C:/Users/austi_000/Desktop/Game_Project_REALLYDONE/laser.cpp">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="C:/Users/austi_000/Desktop/Game_Project_REALLYDONE/laser.h">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="C:/Users/austi_000/Desktop/Game_Project_REALLYDONE/main.cpp">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="C:/Users/austi_000/Desktop/Game_Project_REALLYDONE/obstacle.cpp">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="C:/Users/austi_000/Desktop/Game_Project_REALLYDONE/obstacle.h">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="C:/Users/austi_000/Desktop/Game_Project_REALLYDONE/player.cpp">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="C:/Users/austi_000/Desktop/Game_Project_REALLYDONE/player.h">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="C:/Users/austi_000/Desktop/Game_Project_REALLYDONE/powerup.cpp">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="C:/Users/austi_000/Desktop/Game_Project_REALLYDONE/powerup.h">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="C:/Users/austi_000/Desktop/Game_Project_REALLYDONE/rectangle.cpp">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="C:/Users/austi_000/Desktop/Game_Project_REALLYDONE/rectangle.h">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="C:/Users/austi_000/Desktop/Game_Project_REALLYDONE/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/Users/austi_000/Desktop/Game_Project_REALLYDONE/fonts/PressStart2P-Regular.ttf">
+			<Option virtualFolder="CMake Files\fonts\"/>
+		</Unit>
+		<Unit filename="C:/Users/austi_000/Desktop/Game_Project_REALLYDONE/images/misc/Powerup.PNG">
+			<Option virtualFolder="CMake Files\images\misc\"/>
+		</Unit>
+		<Unit filename="C:/Users/austi_000/Desktop/Game_Project_REALLYDONE/images/misc/Title_screen.png">
+			<Option virtualFolder="CMake Files\images\misc\"/>
+		</Unit>
+		<Unit filename="C:/Users/austi_000/Desktop/Game_Project_REALLYDONE/images/misc/icon.png">
+			<Option virtualFolder="CMake Files\images\misc\"/>
+		</Unit>
+		<Unit filename="C:/Users/austi_000/Desktop/Game_Project_REALLYDONE/images/misc/temp_texture.png">
+			<Option virtualFolder="CMake Files\images\misc\"/>
+		</Unit>
+		<Unit filename="C:/Users/austi_000/Desktop/Game_Project_REALLYDONE/images/Backgrounds/EveryOtherMap.PNG">
+			<Option virtualFolder="CMake Files\images\Backgrounds\"/>
+		</Unit>
+		<Unit filename="C:/Users/austi_000/Desktop/Game_Project_REALLYDONE/images/Backgrounds/EveryOtherWeekTitle.PNG">
+			<Option virtualFolder="CMake Files\images\Backgrounds\"/>
+		</Unit>
+		<Unit filename="C:/Users/austi_000/Desktop/Game_Project_REALLYDONE/images/Backgrounds/Title_screen_text.PNG">
+			<Option virtualFolder="CMake Files\images\Backgrounds\"/>
+		</Unit>
+		<Unit filename="C:/Users/austi_000/Desktop/Game_Project_REALLYDONE/images/lasers/BlueLaser.PNG">
+			<Option virtualFolder="CMake Files\images\lasers\"/>
+		</Unit>
+		<Unit filename="C:/Users/austi_000/Desktop/Game_Project_REALLYDONE/images/lasers/BlueLaserPowerup.PNG">
+			<Option virtualFolder="CMake Files\images\lasers\"/>
+		</Unit>
+		<Unit filename="C:/Users/austi_000/Desktop/Game_Project_REALLYDONE/images/lasers/LaserNormal.PNG">
+			<Option virtualFolder="CMake Files\images\lasers\"/>
+		</Unit>
+		<Unit filename="C:/Users/austi_000/Desktop/Game_Project_REALLYDONE/images/lasers/red_laser_powerup.PNG">
+			<Option virtualFolder="CMake Files\images\lasers\"/>
+		</Unit>
+		<Unit filename="C:/Users/austi_000/Desktop/Game_Project_REALLYDONE/images/player1/p1_fade_in.PNG">
+			<Option virtualFolder="CMake Files\images\player1\"/>
+		</Unit>
+		<Unit filename="C:/Users/austi_000/Desktop/Game_Project_REALLYDONE/images/player1/p1down.png">
+			<Option virtualFolder="CMake Files\images\player1\"/>
+		</Unit>
+		<Unit filename="C:/Users/austi_000/Desktop/Game_Project_REALLYDONE/images/player1/p1downleft.png">
+			<Option virtualFolder="CMake Files\images\player1\"/>
+		</Unit>
+		<Unit filename="C:/Users/austi_000/Desktop/Game_Project_REALLYDONE/images/player1/p1downright.png">
+			<Option virtualFolder="CMake Files\images\player1\"/>
+		</Unit>
+		<Unit filename="C:/Users/austi_000/Desktop/Game_Project_REALLYDONE/images/player1/p1left.png">
+			<Option virtualFolder="CMake Files\images\player1\"/>
+		</Unit>
+		<Unit filename="C:/Users/austi_000/Desktop/Game_Project_REALLYDONE/images/player1/p1right.PNG">
+			<Option virtualFolder="CMake Files\images\player1\"/>
+		</Unit>
+		<Unit filename="C:/Users/austi_000/Desktop/Game_Project_REALLYDONE/images/player1/p1up.png">
+			<Option virtualFolder="CMake Files\images\player1\"/>
+		</Unit>
+		<Unit filename="C:/Users/austi_000/Desktop/Game_Project_REALLYDONE/images/player1/p1upleft.png">
+			<Option virtualFolder="CMake Files\images\player1\"/>
+		</Unit>
+		<Unit filename="C:/Users/austi_000/Desktop/Game_Project_REALLYDONE/images/player1/p1upright.png">
+			<Option virtualFolder="CMake Files\images\player1\"/>
+		</Unit>
+		<Unit filename="C:/Users/austi_000/Desktop/Game_Project_REALLYDONE/images/player1/player1_death.PNG">
+			<Option virtualFolder="CMake Files\images\player1\"/>
+		</Unit>
+		<Unit filename="C:/Users/austi_000/Desktop/Game_Project_REALLYDONE/images/player2/p2_fade_in.PNG">
+			<Option virtualFolder="CMake Files\images\player2\"/>
+		</Unit>
+		<Unit filename="C:/Users/austi_000/Desktop/Game_Project_REALLYDONE/images/player2/p2down.PNG">
+			<Option virtualFolder="CMake Files\images\player2\"/>
+		</Unit>
+		<Unit filename="C:/Users/austi_000/Desktop/Game_Project_REALLYDONE/images/player2/p2downleft.PNG">
+			<Option virtualFolder="CMake Files\images\player2\"/>
+		</Unit>
+		<Unit filename="C:/Users/austi_000/Desktop/Game_Project_REALLYDONE/images/player2/p2downright.PNG">
+			<Option virtualFolder="CMake Files\images\player2\"/>
+		</Unit>
+		<Unit filename="C:/Users/austi_000/Desktop/Game_Project_REALLYDONE/images/player2/p2left.PNG">
+			<Option virtualFolder="CMake Files\images\player2\"/>
+		</Unit>
+		<Unit filename="C:/Users/austi_000/Desktop/Game_Project_REALLYDONE/images/player2/p2right.PNG">
+			<Option virtualFolder="CMake Files\images\player2\"/>
+		</Unit>
+		<Unit filename="C:/Users/austi_000/Desktop/Game_Project_REALLYDONE/images/player2/p2up.PNG">
+			<Option virtualFolder="CMake Files\images\player2\"/>
+		</Unit>
+		<Unit filename="C:/Users/austi_000/Desktop/Game_Project_REALLYDONE/images/player2/p2upleft.PNG">
+			<Option virtualFolder="CMake Files\images\player2\"/>
+		</Unit>
+		<Unit filename="C:/Users/austi_000/Desktop/Game_Project_REALLYDONE/images/player2/p2upright.PNG">
+			<Option virtualFolder="CMake Files\images\player2\"/>
+		</Unit>
+		<Unit filename="C:/Users/austi_000/Desktop/Game_Project_REALLYDONE/images/player2/player2_death.PNG">
+			<Option virtualFolder="CMake Files\images\player2\"/>
+		</Unit>
+		<Unit filename="C:/Users/austi_000/Desktop/Game_Project_REALLYDONE/images/Obstacles/barrel.PNG">
+			<Option virtualFolder="CMake Files\images\Obstacles\"/>
+		</Unit>
+		<Unit filename="C:/Users/austi_000/Desktop/Game_Project_REALLYDONE/images/Obstacles/crates.PNG">
+			<Option virtualFolder="CMake Files\images\Obstacles\"/>
+		</Unit>
+		<Unit filename="C:/Users/austi_000/Desktop/Game_Project_REALLYDONE/images/Obstacles/fence1.PNG">
+			<Option virtualFolder="CMake Files\images\Obstacles\"/>
+		</Unit>
+		<Unit filename="C:/Users/austi_000/Desktop/Game_Project_REALLYDONE/images/Obstacles/fence2.PNG">
+			<Option virtualFolder="CMake Files\images\Obstacles\"/>
+		</Unit>
+		<Unit filename="C:/Users/austi_000/Desktop/Game_Project_REALLYDONE/images/Obstacles/largeRock.PNG">
+			<Option virtualFolder="CMake Files\images\Obstacles\"/>
+		</Unit>
+		<Unit filename="C:/Users/austi_000/Desktop/Game_Project_REALLYDONE/images/Obstacles/smallRock.PNG">
+			<Option virtualFolder="CMake Files\images\Obstacles\"/>
+		</Unit>
+		<Unit filename="C:/Users/austi_000/Desktop/Game_Project_REALLYDONE/images/controls_screen/Player1_example.PNG">
+			<Option virtualFolder="CMake Files\images\controls_screen\"/>
+		</Unit>
+		<Unit filename="C:/Users/austi_000/Desktop/Game_Project_REALLYDONE/images/controls_screen/Player2_example.PNG">
+			<Option virtualFolder="CMake Files\images\controls_screen\"/>
+		</Unit>
+		<Unit filename="C:/Users/austi_000/Desktop/Game_Project_REALLYDONE/images/controls_screen/Powerup_example.png">
+			<Option virtualFolder="CMake Files\images\controls_screen\"/>
+		</Unit>
+		<Unit filename="C:/Users/austi_000/Desktop/Game_Project_REALLYDONE/Audio/Music/Every_Other_Week.ogg">
+			<Option virtualFolder="CMake Files\Audio\Music\"/>
+		</Unit>
+		<Unit filename="C:/Users/austi_000/Desktop/Game_Project_REALLYDONE/Audio/voiceover/fight.ogg">
+			<Option virtualFolder="CMake Files\Audio\voiceover\"/>
+		</Unit>
+		<Unit filename="C:/Users/austi_000/Desktop/Game_Project_REALLYDONE/Audio/voiceover/p1death.ogg">
+			<Option virtualFolder="CMake Files\Audio\voiceover\"/>
+		</Unit>
+		<Unit filename="C:/Users/austi_000/Desktop/Game_Project_REALLYDONE/Audio/voiceover/p1wins.ogg">
+			<Option virtualFolder="CMake Files\Audio\voiceover\"/>
+		</Unit>
+		<Unit filename="C:/Users/austi_000/Desktop/Game_Project_REALLYDONE/Audio/voiceover/p2death.ogg">
+			<Option virtualFolder="CMake Files\Audio\voiceover\"/>
+		</Unit>
+		<Unit filename="C:/Users/austi_000/Desktop/Game_Project_REALLYDONE/Audio/voiceover/p2wins.ogg">
+			<Option virtualFolder="CMake Files\Audio\voiceover\"/>
+		</Unit>
+		<Unit filename="C:/Users/austi_000/Desktop/Game_Project_REALLYDONE/Audio/voiceover/tie_game.ogg">
+			<Option virtualFolder="CMake Files\Audio\voiceover\"/>
+		</Unit>
+		<Unit filename="C:/Users/austi_000/Desktop/Game_Project_REALLYDONE/Audio/misc/laser.ogg">
+			<Option virtualFolder="CMake Files\Audio\misc\"/>
+		</Unit>
+		<Unit filename="C:/Users/austi_000/Desktop/Game_Project_REALLYDONE/Audio/misc/power_laser.ogg">
+			<Option virtualFolder="CMake Files\Audio\misc\"/>
+		</Unit>
+		<Unit filename="C:/Users/austi_000/Desktop/Game_Project_REALLYDONE/Audio/misc/walking.ogg">
+			<Option virtualFolder="CMake Files\Audio\misc\"/>
+		</Unit>
+		<Unit filename="C:/Users/austi_000/Desktop/Game_Project_REALLYDONE/../../../../Program Files/SFML-2.5.1/lib/cmake/SFML/SFMLConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Program Files\SFML-2.5.1\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="C:/Users/austi_000/Desktop/Game_Project_REALLYDONE/../../../../Program Files/SFML-2.5.1/lib/cmake/SFML/SFMLConfigDependencies.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Program Files\SFML-2.5.1\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="C:/Users/austi_000/Desktop/Game_Project_REALLYDONE/../../../../Program Files/SFML-2.5.1/lib/cmake/SFML/SFMLConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Program Files\SFML-2.5.1\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="C:/Users/austi_000/Desktop/Game_Project_REALLYDONE/../../../../Program Files/SFML-2.5.1/lib/cmake/SFML/SFMLStaticTargets-debug.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Program Files\SFML-2.5.1\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="C:/Users/austi_000/Desktop/Game_Project_REALLYDONE/../../../../Program Files/SFML-2.5.1/lib/cmake/SFML/SFMLStaticTargets-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Program Files\SFML-2.5.1\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="C:/Users/austi_000/Desktop/Game_Project_REALLYDONE/../../../../Program Files/SFML-2.5.1/lib/cmake/SFML/SFMLStaticTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Program Files\SFML-2.5.1\lib\cmake\SFML\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

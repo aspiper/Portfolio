@@ -1,0 +1,6 @@
+The contents of 'laser.ogg', 'power_laser.ogg', and 'walking.ogg' were each created collaboratively by Austin Piper
+and David Reisner. The contents of these files are released into the public domain.
+
+'walking.ogg' is the sound of a shoe being tapped in rhythm against a carpeted surface
+
+'laser.ogg' and 'power_laser.ogg' are digitally modified sounds of a belt being snapped together

@@ -1,0 +1,6 @@
+The contents of 'fight.ogg', 'p1death.ogg', 'p1wins.ogg', 'p2death.ogg', 'p2wins.ogg', and 'tie_game.ogg' were each created
+collaboratively by Austin Piper and David Reisner. The contents of these files are released into the public domain.
+
+David Reisner is the voice in the following: "fight.ogg", "p1death.ogg", "p1wins.ogg", "p2wins.ogg", and "tie_game.ogg"
+
+Austin Piper is the voice in "p2death.ogg"
