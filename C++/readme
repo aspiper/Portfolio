@@ -1,1 +1,13 @@
-uhhhh....
+This folder contains a C++ project which I had done in the winter of 2020/2021. It is a small top down arcade-style shooter 
+created using the SFML multimedia library.
+
+This was a collaboration that involved me, as well as some other friends with a variety of skill sets. Every single piece of it 
+(except for the text font) is completely original. The overall vision for the game was mine, and I wrote the code for it. However, it
+would not have been possible without the following friends of mine generously sharing their talents:
+
+Grace Byers -- Original Artwork and Animations
+Andrew Piper -- Original Music Composition
+David Reisner -- Sound Effects and Voiceover
+
+
+
