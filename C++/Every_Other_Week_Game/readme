@@ -1,2 +1,5 @@
 If you would like to play the game, you can download the contents of this folder and then click on the game.exe shortcut. If that doesn't
-work, try navigating to Game_Project/cmake-build-debug and run the file Game.exe directly.
+work, try navigating to Game_Project/cmake-build-debug and run the file Game.exe directly. Note that the executable is compiled to run on
+Windows machines.
+
+Additionally, if you would like the audio to work, it is necessary that you have the OpenAL API installed. It can be found here: https://www.openal.org/
